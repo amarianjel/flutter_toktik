@@ -22,8 +22,8 @@ class VideoBackground extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: colors,
-            stops: stops,
-            begin: Alignment.topCenter,
+            stops: stops, // Donde por vector ubico el gradiente
+            begin: Alignment.topCenter, // son para ver donde se ubican
             end: Alignment.bottomCenter
           )
         ),
